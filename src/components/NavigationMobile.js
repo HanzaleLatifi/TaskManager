@@ -6,7 +6,7 @@ import { FaListUl } from "react-icons/fa";
 
 function NavigationMobile() {
   return (
-    <nav className="w-full fixed bottom-0">
+    <nav className="w-full fixed bottom-0  ">
       <ul className="w-full flex bg-blue-500 justify-between px-4 py-2 text-white " >
         <li>
           <NavLink to="/auth" activeClassName="activeNav">
